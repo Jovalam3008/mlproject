@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-HYPEN_E_DOT = '-e .' # constan for this particular value 
+HYPEN_E_DOT = '-e .' # constant for this particular value 
 def get_requirements(file_path:str)->List[str]:
     '''
     This function will return the list of requirements
